@@ -1,0 +1,44 @@
+.boton {
+	margin: 0 auto;
+	display: block;
+	width: 40px;
+	height: 36px;
+	padding: 10px;
+	border-radius: 7px;
+	background: #666;
+	color: white;
+	cursor: pointer;
+	position: relative;
+}
+
+.boton span {
+	display: block;
+	width: 40px;
+	height: 4px;
+	background: white;
+	margin-top:7px;
+}
+
+label {
+  cursor: pointer;
+}
+#menu-toggle {
+  display: none; 
+  
+  /* hide the checkbox */
+}
+#menu {
+  display: none;
+  text-align: center;
+  background: white;
+  padding:10px 0;
+}
+
+#menu li a {
+	color: black;
+	padding: 10px 0;
+	display: block;
+}
+#menu-toggle:checked + #menu {
+  display: block;
+}
